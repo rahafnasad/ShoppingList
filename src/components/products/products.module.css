@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.products{
+    overflow-x: hidden;
+    background-color: #dfdfdf;
+}
+.products h2{
+    font-size: 55px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: #8c1c13;
+    padding-top:25px ;
+
+}
+.allProducts {
+    padding: 15px 30px;
+    background-color: white;
+    margin: 40px !important;
+    border-radius: 15px;
+   
+}
+.product img{
+width: 250px;
+height: 250px;
+margin-top: 15px;
+border-radius: 15px;}
+.product{
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+position: relative;
+border: 2px solid rgb(177, 177, 177);
+}
+.title,.price{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 800;
+    color: #333;
+}
+.description{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.85);
+height: 100%;
+z-index: 2;
+border-radius: 15px;
+border: 2px solid #5e503f;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+flex-direction: column;
+visibility: hidden;
+}
+.add {
+    background-color: #8c1c13;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.product:hover .overlay{
+    visibility: visible;
+    cursor: pointer;
+}
+.stars{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.star {
+    margin-right: 3px;
+font-size: 20px;}

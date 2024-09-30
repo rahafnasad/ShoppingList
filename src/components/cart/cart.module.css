@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cart{
+    background-color: #dfdfdf;
+    min-height: 100vh;
+
+}
+.cart h2{
+    font-size: 55px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: #8c1c13;
+    padding-top:25px ;
+
+}
+.product{
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 5px;
+    align-items: center;
+    background-color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+   justify-content: space-between;
+   padding: 4px 20px;
+
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+.Products {
+    background-color: white;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.title {
+    font-size: 18px;
+}
+.price{
+    font-weight: 700;
+    color: #8c1c13;
+
+}
+.plus , .minus{
+    background-color: rgba(85, 0, 0, 0.8);
+    color: white ;
+    margin: 0 5px;
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 20%;
+   
+}
+.plus:hover , .minus:hover{
+cursor: pointer;
+background-color: rgba(85, 0, 0, 0.99);
+
+}
+.total{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.checkout button{
+    background-color: #8c1c13;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+
+}
