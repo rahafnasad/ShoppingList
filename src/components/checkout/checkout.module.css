@@ -8,6 +8,7 @@
     overflow: hidden;
     width: 100%;
     top: 0;
+    z-index: 7;
     left: 0;
 }
 .checkout h3 {
