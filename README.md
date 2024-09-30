@@ -40,4 +40,14 @@ This allows for order submission upon completion.
    ```bash
    git clone https://github.com/rahafnasad/ShoppingList.git
    ```
-   dds
+ ### Application Screenshot
+ ![1](https://github.com/user-attachments/assets/a24dfa32-26e5-496a-8ab4-4e163ccf6553)
+ ![2](https://github.com/user-attachments/assets/14b1c065-7291-44bd-8816-127367397a72)
+ ![3](https://github.com/user-attachments/assets/43976a43-0694-4053-ba2b-e15b4c136532)
+ ![4](https://github.com/user-attachments/assets/27340a4a-41f0-4247-b5c4-fe6dcece565b)
+ ![5](https://github.com/user-attachments/assets/f6c2e171-8fec-4850-8fb0-f024598df7c4)
+
+
+
+
+
